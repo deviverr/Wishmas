@@ -25,7 +25,7 @@ The website was experiencing severe performance issues on mobile devices, with f
 
 **Root Cause:**
 ```javascript
-// Before: dxd2.html lines 1165-1177 (original)
+// Before: index.html lines 1165-1177 (original)
 function createSnowflakes() {
     const snowflakeCount = 150;  // FIXED VALUE - TOO MANY FOR MOBILE
     for (let i = 0; i < snowflakeCount; i++) {
@@ -84,8 +84,8 @@ function createSnowflakes(count = null) {
 - Mobile lag: 50-100ms → 0ms
 
 **Files Modified:**
-- `dxd2.html` lines 1179-1221 (JavaScript)
-- `dxd2.html` lines 30-40 (CSS - added GPU hints)
+- `index.html` lines 1179-1221 (JavaScript)
+- `index.html` lines 30-40 (CSS - added GPU hints)
 
 ---
 
@@ -98,7 +98,7 @@ function createSnowflakes(count = null) {
 
 **Root Cause:**
 ```css
-/* Before: dxd2.html lines 640-653 (original) */
+/* Before: index.html lines 640-653 (original) */
 @keyframes ornamentShine {
     0%, 100% {
         box-shadow:
@@ -154,8 +154,8 @@ function createSnowflakes(count = null) {
 - Smooth animation even on low-end devices
 
 **Files Modified:**
-- `dxd2.html` lines 582-607 (CSS class)
-- `dxd2.html` lines 657-666 (keyframes)
+- `index.html` lines 582-607 (CSS class)
+- `index.html` lines 657-666 (keyframes)
 
 ---
 
@@ -168,7 +168,7 @@ function createSnowflakes(count = null) {
 
 **Root Cause:**
 ```javascript
-// Before: dxd2.html line 1284 (original)
+// Before: index.html line 1284 (original)
 function pickWish(wish, index) {
     wishes.splice(index, 1);
     localStorage.setItem(storageKey, JSON.stringify(wishes));
@@ -207,8 +207,8 @@ function pickWish(wish, index, paperElement) {
 - Added smooth fade-out animation for better UX
 
 **Files Modified:**
-- `dxd2.html` lines 1291-1324 (pickWish function)
-- `dxd2.html` lines 275-284 (fade-out animation CSS)
+- `index.html` lines 1291-1324 (pickWish function)
+- `index.html` lines 275-284 (fade-out animation CSS)
 
 ---
 
@@ -221,7 +221,7 @@ function pickWish(wish, index, paperElement) {
 
 **Root Cause:**
 ```html
-<!-- Before: dxd2.html lines 982-1000 (original) -->
+<!-- Before: index.html lines 982-1000 (original) -->
 <!-- 12 Snow piles -->
 <div class="snow-pile" style="width: 80px; height: 30px; left: 5px; bottom: 60px;"></div>
 <div class="snow-pile" style="width: 60px; height: 25px; right: 10px; bottom: 70px;"></div>
@@ -251,9 +251,9 @@ function pickWish(wish, index, paperElement) {
 - Cleaner codebase
 
 **Files Modified:**
-- `dxd2.html` lines 982-1000 (removed HTML)
-- `dxd2.html` lines 727-742 (removed CSS)
-- `dxd2.html` lines 877-883 (removed mobile CSS)
+- `index.html` lines 982-1000 (removed HTML)
+- `index.html` lines 727-742 (removed CSS)
+- `index.html` lines 877-883 (removed mobile CSS)
 
 ---
 
@@ -295,8 +295,8 @@ function pickWish(wish, index, paperElement) {
 - Improved battery life on mobile devices
 
 **Files Modified:**
-- `dxd2.html` lines 954-968 (accessibility CSS)
-- `dxd2.html` lines 30-40, 582-607 (added `will-change`)
+- `index.html` lines 954-968 (accessibility CSS)
+- `index.html` lines 30-40, 582-607 (added `will-change`)
 
 ---
 

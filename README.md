@@ -17,7 +17,9 @@ An interactive, multilingual New Year's wish tree with beautiful animations and 
 
 ## 🚀 Live Demo
 
-Visit: [https://yourdomain.com](https://yourdomain.com) *(replace with your actual domain)*
+Visit: **[https://wish-mas.app](https://wish-mas.app)**
+
+Repository: [https://github.com/deviverr/Wishmas](https://github.com/deviverr/Wishmas)
 
 ## 🛠️ Setup Instructions
 
@@ -51,7 +53,7 @@ Visit: [https://yourdomain.com](https://yourdomain.com) *(replace with your actu
 
 1. Create a GA4 property at [analytics.google.com](https://analytics.google.com)
 2. Get your Measurement ID (format: `G-XXXXXXXXXX`)
-3. Open [dxd2.html](dxd2.html) and search for `G-XXXXXXXXXX`
+3. Open [index.html](index.html) and search for `G-XXXXXXXXXX`
 4. Replace both instances with your actual Measurement ID
 5. Save and deploy
 
@@ -87,7 +89,7 @@ See [FIXES.md](FIXES.md) for detailed technical documentation of all optimizatio
 
 ### Change Wishes
 
-Edit the `translations` object in [dxd2.html](dxd2.html) (lines ~1330-1420):
+Edit the `translations` object in [index.html](index.html) (lines ~1330-1420):
 
 ```javascript
 en: {
