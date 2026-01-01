@@ -1,0 +1,22 @@
+{
+    "name": "New Year's Wish Tree 2026",
+    "short_name": "Wish Tree",
+    "description": "Interactive New Year's wish tree with magical wishes",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#667eea",
+    "background_color": "#1e3c72",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/"
+}
